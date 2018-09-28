@@ -21,7 +21,7 @@ class QuickSort{
     }
     void sort(int arr[], int low, int high) {
         //TODO the > sign should be swapped with <
-        if (low > high){
+        if (low < high){
             int pi = partition(arr, low, high);
 
             sort(arr, low, pi-1);
